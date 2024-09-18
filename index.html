@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors - Benjamin Marzecki - The Odin Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+      <h2>Choose your Item! + Play until 5 wins!</h2>
+      <div class="data">
+        <div class="playerDisplay">You:</div>
+        <div class="computerDisplay">Computer:</div>
+        <div class="resultDisplay"></div>
+
+        <div class="scorer">
+          Your Score: <span class="playerScoreDisplay">0</span>
+        </div>
+
+        <div class="scorer computer">
+          Computers Score: <span class="computerScoreDisplay">0</span>
+        </div>
+      </div>
+
+      <div class="btn__container">
+        <button class="btn" onclick="playGame('Rock')">🪨</button>
+        <button class="btn" onclick="playGame('Paper')">🧻</button>
+        <button class="btn" onclick="playGame('Scissors')">✂️</button>
+      </div>
+    </div>
+  </body>
+  <script src="realVersion.js"></script>
+</html>

@@ -13,7 +13,7 @@ body {
 
 .container h1 {
     margin: 0 auto;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: gold;
     margin-bottom: 3rem;
@@ -50,9 +50,14 @@ body {
     margin: 9rem 0 0;
 
 }
-.playerDisplay, .computerDisplay, .resultDisplay {
+.playerDisplay, .computerDisplay {
     color: white;
     font-size: 1rem;
+}
+.resultDisplay {
+    color: goldenrod;
+    font-size: 2rem;
+
 }
 .data {
     margin: 2rem auto;
@@ -63,5 +68,11 @@ body {
 }
 .scorer {
     display: flex;
-    
+    color: greenyellow;
+}
+.computer {
+    color: red;
+}
+.scorer span {
+    margin-left: 5px; /* Adjust the margin as needed */
 }
