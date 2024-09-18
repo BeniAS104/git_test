@@ -1,4 +1,4 @@
-<h1>Rock Paper Scissors App</h1>
+# [Rock Paper Scissors](http://rockpaperscissors.bendev.dk)
 A fun and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. Made for The Odin Project Course. This project was created to enhance my skills in JavaScript and improve my understanding of game logic and user interactions.
 
 <h2>Project Brief</h2>
